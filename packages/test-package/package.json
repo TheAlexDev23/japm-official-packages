@@ -2,7 +2,7 @@
   "name": "Test Package",
   "dependencies": [],
   "install": [
-    "echo installing package",
-    "echo package installed"
+    "echo \"installing package\"",
+    "echo \"package installed\""
   ]
 }
