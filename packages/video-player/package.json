@@ -1,0 +1,24 @@
+{
+  "name": "terminal video player",
+  "version": "1.0.0",
+  "description": "play any video on the terminal",
+  "dependencies": [],
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/TheAlexDev23/Terminal-Video-Player/main/requirements.txt",
+      "file name": "requirments.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TheAlexDev23/Terminal-Video-Player/main/video-player",
+      "file name": "video-player"
+    }
+  ],
+  "install": [
+    "pip install -r ${package_dir}/requirments.txt",
+    "cp ${package_dir}/video-player /usr/bin",
+    "chmod +x /usr/bin/video-player"
+  ],
+  "remove": [
+    "rm /usr/bin/video-player"
+  ]
+}
