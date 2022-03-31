@@ -2,7 +2,8 @@
   "name": "Test Package",
   "dependencies": [],
   "install": [
-    "ls",
-    "pwd"
+    "echo test command",
+    "echo installing test package",
+    "echo package test package installed"
   ]
 }
