@@ -1,3 +1,5 @@
+# AS OF BY NOW THE INSTALLATION OF THIS PACKAGE IS NOT SUPPORTED DUE TO UN-IMPLEMENTED FEATURES THIS PACKAGE ISNTALLATOR USES
+
 [Source Code](https://github.com/TheAlexDev23/Terminal-Video-Player)
 
 # Terminal Video Player
