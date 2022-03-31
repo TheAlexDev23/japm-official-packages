@@ -1,0 +1,8 @@
+{
+  "name": "Test Package",
+  "dependencies": ["test-package"],
+  "install": [
+    "echo Installing Test Package 2",
+    "echo Package Test Package 2 Installed"
+  ]
+}
