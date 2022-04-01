@@ -4,5 +4,9 @@
   "install": [
     "echo Installing Test Package 2",
     "echo Package Test Package 2 Installed"
+  ],
+  "remove": [
+    "echo Removing test package 2",
+    "echo Removed test package 2"
   ]
 }
