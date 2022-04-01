@@ -2,8 +2,12 @@
   "name": "Test Package",
   "dependencies": [],
   "install": [
-    "echo test command",
-    "echo installing test package",
-    "echo package test package installed"
+    "echo Test command",
+    "echo Installing test package",
+    "echo Package test package installed"
+  ],
+  "remove": [
+    "echo Removing test package",
+    "echo Test package removed"
   ]
 }
