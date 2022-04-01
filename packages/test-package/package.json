@@ -1,5 +1,7 @@
 {
   "name": "Test Package",
+  "version": "1.0.0",
+  "description": "Just a test package",
   "dependencies": [],
   "install": [
     "echo Test command",
@@ -9,5 +11,9 @@
   "remove": [
     "echo Removing test package",
     "echo Test package removed"
+  ],
+  "update": [
+    "echo Updating test package",
+    "echo Updated test package"
   ]
 }
