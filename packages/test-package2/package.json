@@ -3,6 +3,7 @@
   "description": "Another test package",
   "version": "1.0.0",
   "dependencies": ["test-package"],
+  "files": [],
   "install": [
     "echo Installing Test Package 2",
     "echo Package Test Package 2 Installed"
