@@ -19,15 +19,15 @@ If this format is not followed the package would be considered corrupted or not 
 	],
 	"files": [
 		{
-			"name": "file1",
+			"file name": "file1",
 			"url": "https://url.of/file1"
 		},
 		{
-			"name": "file2",
+			"file name": "file2",
 			"url": "https://url.of/file2"
 		},
 		{
-			"name": "file3",
+			"file name": "file3",
 			"url": "https://url.of/file2"
 		}
 	],
@@ -51,7 +51,7 @@ If this format is not followed the package would be considered corrupted or not 
 - dependencies: an array of strings with the names of other packages that are needed as dependencies
 - files: an array of objects each representing a file that is needed to install or build the package:
 	- URL: this field shows from where the package would be downloaded
-	- name: relative directory (to the installation folder) of the file that would be downoaded from URL.
+	- file name: relative directory (to the installation folder) of the file that would be downoaded from URL.
 - install: array of string representing commands to install the package
 - remove: same as install but for removal
 
