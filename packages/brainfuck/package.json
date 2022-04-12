@@ -10,7 +10,7 @@
     }
   ],
   "install": [
-    "gcc -o /usr/bin/bf ${project_dir}/brainfuck.c"
+    "gcc -o /usr/bin/bf ${package_dir}/brainfuck.c"
   ],
   "remove": [
     "rm /usr/bin/bf"
