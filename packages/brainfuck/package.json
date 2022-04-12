@@ -10,7 +10,7 @@
     }
   ],
   "install": [
-    "gcc -o /usr/bin/bf bainfuck.c"
+    "gcc -o /usr/bin/bf ${project_dir}/bainfuck.c"
   ],
   "remove": [
     "rm /usr/bin/bf"
