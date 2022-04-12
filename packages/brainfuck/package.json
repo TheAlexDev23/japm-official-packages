@@ -1,0 +1,18 @@
+{
+  "name": "brainfuck interpreter",
+  "description": "A interpreter for the brainfuck programming language",
+  "version": "1.0.0",
+  "dependencies":  [],
+  "files":[
+    {
+      "name": "brainfuck.c",
+      "url": "https://raw.githubusercontent.com/TheAlexDev23/brainfuck/main/interpreter.c"
+    }
+  ],
+  "install": [
+    "gcc -o /usr/bin/bf bainfuck.c"
+  ],
+  "remove": [
+    "rm /usr/bin/bf"
+  ]
+}
