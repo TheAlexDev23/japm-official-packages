@@ -1,6 +1,3 @@
-# THIS PACKAGE IS UN-INSTALLABLE AS OF BY NOW
-# THIS PACKAGE USES SOME FEATURES THAT ARE STILL NOT IMPLEMENETED IN THE PACKAGE MANAGER
-
 [Source Code](https://github.com/TheAlexDev23/Terminal-Video-Player)
 
 # Terminal Video Player
