@@ -11,9 +11,5 @@
   "remove": [
     "echo Removing test package 2",
     "echo Removed test package 2"
-  ],
-  "update": [
-    "echo Updating test package 2",
-    "echo Updated test package 2"
   ]
 }
