@@ -5,7 +5,7 @@
   "dependencies": [],
   "files": [
     {
-      "name": "brainfuck.c",
+      "file name": "brainfuck.c",
       "url": "https://raw.githubusercontent.com/TheAlexDev23/brainfuck/main/interpreter.c"
     }
   ],
