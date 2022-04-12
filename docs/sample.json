@@ -1,0 +1,19 @@
+{
+  "name": "JAPM",
+  "version": "1.0.0",
+  "description": "Just a test package",
+  "dependencies": ["json-c", "sqlite3"],
+  "files": [
+	{
+		"name": "japm",
+		"url": "https://github.com/TheAlexDev23/japm/releases/download/v1.0.0/japm"
+	}
+  ],
+  "install": [
+	 "mv ${project_dir}/japm /usr/bin/"
+  ],
+  "remove": [
+	 "rm /usr/bin/japm"
+  ]
+}
+
