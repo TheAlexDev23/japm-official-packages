@@ -57,6 +57,10 @@ To submit a new package make a pull request and wait for approval.
 - install: array of string representing commands to install the package
 - remove: same as install but for removal
 
+
+### Limitations
+- Install/remove commands cannot reach over **5000** characters in total. Consider using a script downloaded as a file if this is an issue for you.
+
 ### Variables that can be used 
 
 - `${project_dir}` This would be replaced with the directory that the files are downloaded to (for now it's: `/tmp/japm/<package name>/<file name>`)
