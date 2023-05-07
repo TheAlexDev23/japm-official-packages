@@ -6,6 +6,8 @@ The json file should be named package.json and located under:
 `<the repo url>/packages/<package_name>/package.json`.
 If this format is not followed the package would be considered corrupted or not found. And would not be installed by the package manager.
 
+To submit a new package make a pull request and wait for approval.
+
 ## Format of the json file is the following:
 
 ```
