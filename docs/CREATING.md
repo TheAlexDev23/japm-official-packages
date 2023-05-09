@@ -19,6 +19,11 @@ To submit a new package make a pull request and wait for approval.
 		"package2",
 		"package3"
 	],
+	"buuild dependencies": [
+		"package1",
+		"package2",
+		"package3"
+	],
 	"files": [
 		{
 			"file name": "file1",
@@ -33,7 +38,17 @@ To submit a new package make a pull request and wait for approval.
 			"url": "https://url.of/file2"
 		}
 	],
+	"pre install": [
+		"system command 1",
+		"system command 2",
+		"system command 3",
+	],
 	"install": [
+		"system command 1",
+		"system command 2",
+		"system command 3",
+	],
+	"post install": [
 		"system command 1",
 		"system command 2",
 		"system command 3",
@@ -54,12 +69,15 @@ To submit a new package make a pull request and wait for approval.
 - files: an array of objects each representing a file that is needed to install or build the package:
 	- URL: this field shows from where the package would be downloaded
 	- file name: relative directory (to the installation folder) of the file that would be downoaded from URL.
+- pre or post isntall: commands that will be ran before and after package install use this to setup install configuration and cleanup.
 - install: array of string representing commands to install the package
 - remove: same as install but for removal
 
 
 ### Limitations
 - Install/remove commands cannot reach over **5000** characters in total. Consider using a script downloaded as a file if this is an issue for you.
+- Install or remove instructions can't under no circumstance contain a semicolon, due to the way JAPM manages lists.
+- If at least 1 field is not present the package is considered corrupted. If you don't have the need for some fields (ex. post install) just leave them empty but still define them in your .josn file.
 
 ### Variables that can be used 
 
