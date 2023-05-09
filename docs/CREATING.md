@@ -77,7 +77,7 @@ To submit a new package make a pull request and wait for approval.
 ### Limitations
 - Install/remove commands cannot reach over **5000** characters in total. Consider using a script downloaded as a file if this is an issue for you.
 - Install or remove instructions can't under no circumstance contain a semicolon, due to the way JAPM manages lists.
-- If at least 1 field is not present the package is considered corrupted. If you don't have the need for some fields (ex. post install) just leave them empty but still define them in your .josn file.
+- If at least 1 field is not present the package is considered corrupted. If you don't have the need for some fields (ex. post install) just leave them empty but still define them in your .json file.
 
 ### Variables that can be used 
 
