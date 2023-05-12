@@ -1,5 +1,4 @@
 {
-  {
 	"name": "package name",
 	"version": "1.0.0",
 	"description": "just a basic package used for testing",
@@ -18,13 +17,12 @@
 	],
 	"post install": [
 		"echo pst1",
-    "echo pst2",
-    "echo pst3"
+		"echo pst2",
+		"echo pst3"
 	],
 	"remove": [
 		"echo r1",
-    		"echo r2",
-    		"echo r3"
+		"echo r2",
+		"echo r3"
 	]
-}
 }
