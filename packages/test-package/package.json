@@ -5,7 +5,7 @@
 	"description": "just a basic package used for testing",
 	"dependencies": [],
 	"build dependencies": [],
-	"files": [].
+	"files": [],
 	"pre install": [
 		"echo p1",
 		"echo p2",
@@ -23,8 +23,8 @@
 	],
 	"remove": [
 		"echo r1",
-    "echo r2",
-    "echo r3"
+    		"echo r2",
+    		"echo r3"
 	]
 }
 }
