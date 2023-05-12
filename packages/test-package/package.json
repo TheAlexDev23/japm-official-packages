@@ -3,10 +3,9 @@
 	"name": "package name",
 	"version": "1.0.0",
 	"description": "just a basic package used for testing",
-	"dependencies": [
-	],
-	"build dependencies": [
-	],
+	"dependencies": [],
+	"build dependencies": [],
+	"files": [].
 	"pre install": [
 		"echo p1",
 		"echo p2",
