@@ -2,6 +2,7 @@
   {
 	"name": "package name",
 	"version": "1.0.0",
+	"description": "just a basic package used for testing",
 	"dependencies": [
 	],
 	"build dependencies": [
