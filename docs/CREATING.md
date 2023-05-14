@@ -65,6 +65,7 @@ To submit a new package make a pull request and wait for approval.
 
 - name: the name of the package
 - version: the version of the package
+- description: additional information about the package
 - dependencies: an array of strings with the names of other packages that are needed as dependencies
 - files: an array of objects each representing a file that is needed to install or build the package:
 	- URL: this field shows from where the package would be downloaded
@@ -81,5 +82,5 @@ To submit a new package make a pull request and wait for approval.
 
 ### Variables that can be used 
 
-- `${project_dir}` This would be replaced with the directory that the files are downloaded to (for now it's: `/tmp/japm/<package name>/<file name>`)
+- `${project_dir}` This would be replaced with the directory where this package's files are downloaded to.
 
