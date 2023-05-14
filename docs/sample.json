@@ -1,12 +1,12 @@
 {
   "name": "JAPM",
-  "version": "1.0.0",
-  "description": "Just a test package",
+  "version": "2.1.0",
+  "description": "Just-Another-Package-Manager, is a package manager that uses TUI to provide graphical asistance for package management.",
   "dependencies": ["json-c", "sqlite3"],
   "files": [
 	{
 		"name": "japm",
-		"url": "https://github.com/TheAlexDev23/japm/releases/download/v1.0.0/japm"
+		"url": "https://github.com/TheAlexDev23/japm/releases/download/v2.1.0/japm"
 	}
   ],
   "install": [
