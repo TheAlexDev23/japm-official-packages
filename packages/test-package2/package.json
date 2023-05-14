@@ -1,15 +1,28 @@
 {
-  "name": "Test Package 2",
-  "description": "Another test package",
+  "name": "test-package2",
+  "description": "A package that depends on test-package and is used for dependency testing",
   "version": "1.0.0",
   "dependencies": ["test-package"],
-  "files": [],
-  "install": [
-    "echo Installing Test Package 2",
-    "echo Package Test Package 2 Installed"
-  ],
-  "remove": [
-    "echo Removing test package 2",
-    "echo Removed test package 2"
-  ]
+	"build dependencies": [],
+	"files": [],
+	"pre install": [
+		"echo p1",
+		"echo p2",
+		"echo p3"
+	],
+	"install": [
+		"echo i1",
+		"echo i2",
+		"echo i3"
+	],
+	"post install": [
+		"echo pst1",
+		"echo pst2",
+		"echo pst3"
+	],
+	"remove": [
+		"echo r1",
+		"echo r2",
+		"echo r3"
+	]
 }
