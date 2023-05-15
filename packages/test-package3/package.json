@@ -1,0 +1,41 @@
+{
+	"name": "test-package3",
+	"description": "A package that has files and is used for file testing",
+	"version": "1.0.0",
+	"dependencies": [],
+	"build dependencies": [],
+	"files": [
+    {
+      "url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file1.txt"
+      "file name": "file1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file2.txt"
+      "file name": "file2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file3.txt"
+      "file name": "file3"
+    }
+  ],
+	"pre install": [
+		"echo p1",
+		"echo p2",
+		"echo p3"
+	],
+	"install": [
+		"echo i1",
+		"echo i2",
+		"echo i3"
+	],
+	"post install": [
+		"echo pst1",
+		"echo pst2",
+		"echo pst3"
+	],
+	"remove": [
+		"echo r1",
+		"echo r2",
+		"echo r3"
+	]
+}
