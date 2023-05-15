@@ -69,7 +69,7 @@ To submit a new package make a pull request and wait for approval.
 - dependencies: an array of strings with the names of other packages that are needed as dependencies
 - files: an array of objects each representing a file that is needed to install or build the package:
 	- URL: this field shows from where the package would be downloaded
-	- file name: relative directory (to the installation folder) of the file that would be downoaded from URL.
+	- file name: directory to download to. Don't write a full directory like /tmp/file.sh rather a relative one like files/file.sh, and it will be downloaded in each package's directory.
 - pre or post isntall: commands that will be ran before and after package install use this to setup install configuration and cleanup.
 - install: array of string representing commands to install the package
 - remove: same as install but for removal
