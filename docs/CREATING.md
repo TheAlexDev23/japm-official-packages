@@ -82,5 +82,5 @@ To submit a new package make a pull request and wait for approval.
 
 ### Variables that can be used 
 
-- `${package_dir}` Use this in comands and it will be automatically replaced by the direcotry of the package. Files are downloaded in file_location relative to this directory.
+- `${package_dir}` Use this in comands and it will be automatically replaced by the direcotry of the package. Files are downloaded under `this location`+`file name (in json)`
 
