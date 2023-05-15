@@ -6,15 +6,15 @@
 	"build dependencies": [],
 	"files": [
 		{
-			"url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file1.txt"
+			"url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file1.txt",
 			"file name": "file1"
 		},
 		{
-			"url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file2.txt"
+			"url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file2.txt",
 			"file name": "file2"
 		},
 		{
-			"url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file3.txt"
+			"url": "https://raw.githubusercontent.com/TheAlexDev23/japm-official-packages/main/packages/test-package3/file3.txt",
 			"file name": "file3"
 		}
 	],
