@@ -29,9 +29,9 @@
 		"echo i3"
 	],
 	"post install": [
-		"echo pst1",
-		"echo pst2",
-		"echo pst3"
+		"cat ${package_folder}/file1.txt"
+		"cat ${package_folder}/file2.txt"
+		"cat ${package_folder}/file3.txt"
 	],
 	"remove": [
 		"echo r1",
