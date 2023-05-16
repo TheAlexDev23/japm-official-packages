@@ -84,4 +84,4 @@ The order of statemetns shouldn't matter, but try to use the standart for more r
 
 ### Variables that can be used 
 
-- `${package_dir}` Use this in comands and it will be automatically replaced by the direcotry of the package. Files are downloaded under `dir of package`+`file name (in json)`. It will already end with a slash so writing something like this `${package_dir}/file` can result in errors rather write `${package_dir}file`
+- `${package_dir}` Use this in comands and it will be automatically replaced by the direcotry of the package. Files are downloaded under `dir of package`+`file name (in json)`. 
