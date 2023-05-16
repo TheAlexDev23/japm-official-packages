@@ -11,7 +11,7 @@
 	],
 	"pre install": [],
 	"install": [
-		"mv ${project_dir}/japm /usr/bin/"
+		"mv ${project_dir}japm /usr/bin/"
 	],
 	"post install": [],
 	"remove": [
