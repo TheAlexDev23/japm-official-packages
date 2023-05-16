@@ -1,6 +1,6 @@
 {
 	"name": "sherlock",
-	"version:": "git-latest",
+	"version": "git-latest",
 	"description": "Hunt down social media accounts by username across social networks",
 	"dependencies": [],
 	"build dependencies": [],
