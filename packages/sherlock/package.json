@@ -1,0 +1,20 @@
+{
+  "name": "sherlock",
+  "version:": "git-latest",
+  "description": "Hunt down social media accounts by username across social networks",
+  "dependencies": [],
+  "build dependencies": [],
+  "files": [],
+  "pre install": [
+    "cd ~",
+    "git clone https://github.com/sherlock-project/sherlock.git",
+    "python3 -m pip install -r sherlock/requirements.txt"
+  ],
+  "install: [
+    "chmod +x sherlock/sherlock/sherlock.py"
+  ]
+  "post install": [],
+  "remove": [
+    "rm -rf ~/sherlock
+  ]
+}
