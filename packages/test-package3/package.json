@@ -29,8 +29,8 @@
 		"echo i3"
 	],
 	"post install": [
-		"cat ${package_folder}/file1.txt"
-		"cat ${package_folder}/file2.txt"
+		"cat ${package_folder}/file1.txt",
+		"cat ${package_folder}/file2.txt",
 		"cat ${package_folder}/file3.txt"
 	],
 	"remove": [
