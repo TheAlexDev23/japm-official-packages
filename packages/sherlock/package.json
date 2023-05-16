@@ -12,7 +12,7 @@
   ],
   "install": [
     "chmod +x sherlock/sherlock/sherlock.py"
-  ]
+  ],
   "post install": [],
   "remove": [
     "rm -rf ~/sherlock"
