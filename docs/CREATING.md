@@ -14,6 +14,7 @@ To submit a new package make a pull request and wait for approval.
 {
 	"name": "package name",
 	"version": "1.0.0",
+	"description": "package description",
 	"dependencies": [
 		"package1",
 		"package2",
