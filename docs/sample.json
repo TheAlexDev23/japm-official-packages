@@ -1,19 +1,21 @@
 {
-  "name": "JAPM",
-  "version": "2.1.0",
-  "description": "Just-Another-Package-Manager, is a package manager that uses TUI to provide graphical asistance for package management.",
-  "dependencies": ["json-c", "sqlite3"],
-  "files": [
-	{
-		"name": "japm",
-		"url": "https://github.com/TheAlexDev23/japm/releases/download/v2.1.0/japm"
-	}
-  ],
-  "install": [
-	 "mv ${project_dir}/japm /usr/bin/"
-  ],
-  "remove": [
-	 "rm /usr/bin/japm"
-  ]
+	"name": "JAPM",
+	"version": "2.1.0",
+	"description": "Just-Another-Package-Manager, is a package manager that uses TUI to provide graphical asistance for package management.",
+	"dependencies": [],
+	"files": [
+		{
+			"name": "japm",
+			"url": "https://github.com/TheAlexDev23/japm/releases/download/v2.1.0/japm"
+		}
+	],
+	"pre install": [],
+	"install": [
+		"mv ${project_dir}/japm /usr/bin/"
+	],
+	"post install": [],
+	"remove": [
+		"rm /usr/bin/japm"
+	]
 }
 
