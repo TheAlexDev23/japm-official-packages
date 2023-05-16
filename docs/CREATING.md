@@ -19,7 +19,7 @@ To submit a new package make a pull request and wait for approval.
 		"package2",
 		"package3"
 	],
-	"buuild dependencies": [
+	"build dependencies": [
 		"package1",
 		"package2",
 		"package3"
@@ -69,7 +69,7 @@ To submit a new package make a pull request and wait for approval.
 - dependencies: an array of strings with the names of other packages that are needed as dependencies
 - files: an array of objects each representing a file that is needed to install or build the package:
 	- URL: this field shows from where the package would be downloaded
-	- file name: directory to download to. Don't write a full directory like /tmp/file.sh rather a relative one like files/file.sh, and it will be downloaded in each package's directory.
+	- file name: directory to download to. Don't write a full directory like /tmp/file.sh rather a relative one like files/file.sh, and it will be downloaded in each package's directory. You can access that directory within commands with [variables](#variables-that-can-be-used)
 - pre or post isntall: commands that will be ran before and after package install use this to setup install configuration and cleanup.
 - install: array of string representing commands to install the package
 - remove: same as install but for removal
@@ -78,9 +78,9 @@ To submit a new package make a pull request and wait for approval.
 ### Limitations
 - Install/remove commands cannot reach over **5000** characters in total. Consider using a script downloaded as a file if this is an issue for you.
 - Install or remove instructions can't under no circumstance contain a semicolon, due to the way JAPM manages lists.
-- If at least 1 field is not present the package is considered corrupted. If you don't have the need for some fields (ex. post install) just leave them empty but still define them in your .json file.
+- If at least 1 field is not present the package is considered corrupted. If you don't have the need for some fields (ex. post install) just leave them empty but still declare them in your .json file.
 
 ### Variables that can be used 
 
-- `${package_dir}` Use this in comands and it will be automatically replaced by the direcotry of the package. Files are downloaded under `this location`+`file name (in json)`
+- `${package_dir}` Use this in comands and it will be automatically replaced by the direcotry of the package. Files are downloaded under `dir of package`+`file name (in json)`
 
