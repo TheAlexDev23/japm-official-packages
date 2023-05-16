@@ -10,11 +10,11 @@
     "git clone https://github.com/sherlock-project/sherlock.git",
     "python3 -m pip install -r sherlock/requirements.txt"
   ],
-  "install: [
+  "install": [
     "chmod +x sherlock/sherlock/sherlock.py"
   ]
   "post install": [],
   "remove": [
-    "rm -rf ~/sherlock
+    "rm -rf ~/sherlock"
   ]
 }
