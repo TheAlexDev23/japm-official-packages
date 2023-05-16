@@ -6,7 +6,7 @@
 	"build dependencies": [],
 	"files": [],
 	"pre install": [
-		"cd ~",
+		"cd",
 		"git clone https://github.com/sherlock-project/sherlock.git",
 		"python3 -m pip install -r sherlock/requirements.txt"
 	],
