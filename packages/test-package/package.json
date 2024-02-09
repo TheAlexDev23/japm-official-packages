@@ -1,7 +1,9 @@
 {
-	"name": "test-package",
-	"version": "1.0.0",
-	"description": "just a basic package used for testing",
+	"package_data": {
+		"name": "test-package",
+		"version": "1.0.0",
+		"description": "just a basic package used for testing"
+	},
 	"dependencies": [],
 	"build dependencies": [],
 	"files": [],
