@@ -1,7 +1,9 @@
 {
-	"name": "test-package3",
-	"version": "1.0.0",
-	"description": "A package that has files and is used for file testing",
+	"package_data": {
+		"name": "test-package3",
+		"version": "1.0.0",
+		"description": "A package that has files and is used for file testing"
+	},
 	"dependencies": [],
 	"build dependencies": [],
 	"files": [
