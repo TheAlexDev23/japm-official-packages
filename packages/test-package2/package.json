@@ -1,7 +1,9 @@
 {
-	"name": "test-package2",
-	"description": "A package that depends on test-package and is used for dependency testing",
-	"version": "1.0.0",
+	"package_data": {
+		"name": "test-package2",
+		"description": "A package that depends on test-package and is used for dependency testing",
+		"version": "1.0.0"
+	},
 	"dependencies": ["test-package"],
 	"build dependencies": [],
 	"files": [],
