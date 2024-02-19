@@ -7,24 +7,29 @@
 	"dependencies": [],
 	"build dependencies": [],
 	"files": [],
-	"pre install": [
-		"echo p1",
-		"echo p2",
-		"echo p3"
+	"pre_install": [
+		"echo pi1",
+		"echo pi2",
+		"echo pi3"
 	],
 	"install": [
 		"echo i1",
 		"echo i2",
 		"echo i3"
 	],
-	"post install": [
+	"post_install": [
 		"echo pst1",
 		"echo pst2",
 		"echo pst3"
 	],
-	"remove": [
-		"echo r1",
-		"echo r2",
-		"echo r3"
+	"pre_remove": [
+		"echo pr1",
+		"echo pr2",
+		"echo pr3"
+	],
+	"post_remove": [
+		"echo pstr1",
+		"echo pstr2",
+		"echo pstr3"
 	]
 }
