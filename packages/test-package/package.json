@@ -14,7 +14,7 @@
 	],
 	"install": [
 		"mkdir -p ./usr/share/test_package",
-		"touch ./usr/share/test_package/test_file",
+		"touch ./usr/share/test_package/test_file"
 	],
 	"post_install": [
 		"echo pst1",
